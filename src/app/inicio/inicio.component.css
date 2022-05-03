@@ -1,0 +1,39 @@
+h1{
+    font-family:"Helvetica";
+
+    color:white;
+}
+
+h3{
+    color:white;
+
+    font-family:"Dejavu Sans";
+
+}
+
+p{
+    color: white;
+
+    font-family:"Arial";
+
+    width: 500px;
+
+}
+
+img{
+    height: 100px;
+
+    width: 100px;
+
+    
+
+}
+
+.yo{
+    position: absolute;
+    top: 2%;
+    bottom: 0;
+    right: 0;
+    left: 75%;
+}
+
