@@ -19,9 +19,13 @@ img{
 }
 
 .cajaPadre{
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 500px;
     height: 300px;
+    top: 0%;
+    bottom: 0;
+    right: 0;
+    left: 25%;
 
     
     
@@ -31,7 +35,7 @@ img{
 
 .icss{
     position: absolute;
-    top: 10%;
+    top: 20%;
     bottom: 0;
     right: 0%;
     left: 10%;
@@ -39,7 +43,7 @@ img{
 
 .ihtml{
     position: absolute;
-    top: 10%;
+    top: 20%;
     bottom: 0;
     right: 0;
     left: 45%;
@@ -47,7 +51,7 @@ img{
 
 .ijs{
     position: absolute;
-    top: 10%;
+    top: 20%;
     bottom: 0;
     right: 0;
     left: 75%;
@@ -55,7 +59,7 @@ img{
 
 .iunity{
     position: absolute;
-    top: 60%;
+    top: 70%;
     bottom: 0;
     right: 0;
     left: 30%;
@@ -64,7 +68,7 @@ img{
 
 .ic{
     position: absolute;
-    top: 60%;
+    top: 70%;
     bottom: 0;
     right: 0;
     left: 60%;

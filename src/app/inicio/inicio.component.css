@@ -29,6 +29,18 @@ img{
 
 }
 
+.cajacont{
+    
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 0%;
+    bottom: 0;
+    right: 0;
+    left: 25%;
+
+}
+
 .yo{
     position: absolute;
     top: 2%;
@@ -37,3 +49,11 @@ img{
     left: 75%;
 }
 
+.info{
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    right: 00px;
+    left: 00px;
+
+}

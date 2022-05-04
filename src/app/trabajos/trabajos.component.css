@@ -10,14 +10,19 @@ p{
 }
 
 img{
-    height: 50%;
+    height: 80%;
 
-    width: 50%;
+    width: 80%;
 
 }
 
 .construccion {
-    
-    margin-left: 30%;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 0%;
+    bottom: 0;
+    right: 0;
+    left: 25%;
     
 }
