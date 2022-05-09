@@ -8,6 +8,7 @@ import { ConocimientosComponent } from './conocimientos/conocimientos.component'
 import { TrabajosComponent } from './trabajos/trabajos.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { RouterModule,Routes } from '@angular/router';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 const appRoutes:Routes = [
 
@@ -23,7 +24,8 @@ const appRoutes:Routes = [
     InicioComponent,
     ConocimientosComponent,
     TrabajosComponent,
-    ContactoComponent
+    ContactoComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

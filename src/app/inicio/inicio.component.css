@@ -34,7 +34,7 @@ img{
     position: absolute;
     width: 500px;
     height: 300px;
-    top: 0%;
+    top: 100px;
     bottom: 0;
     right: 0;
     left: 25%;
@@ -43,7 +43,7 @@ img{
 
 .yo{
     position: absolute;
-    top: 2%;
+    top: 0px;
     bottom: 0;
     right: 0;
     left: 75%;
@@ -51,7 +51,7 @@ img{
 
 .info{
     position: absolute;
-    top: 0%;
+    top: 50px;
     bottom: 0;
     right: 00px;
     left: 00px;
