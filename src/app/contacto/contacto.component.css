@@ -11,8 +11,9 @@ h3{
 }
 
 .container{
-    position: absolute;
-    width: 500px;
+    position: relative;
+    margin: auto;
+    width: 400px;
     height: 300px;
     top: 100px;
     bottom: 0;
@@ -20,3 +21,61 @@ h3{
     left: 0;
 
 }
+
+.boton1{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+     width: 100px;
+     top: 0px;
+     bottom: 0;
+     right: 0px;
+     left: 0;
+    
+
+}
+
+.boton2{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+     width: 100px;
+     top: 0px;
+     bottom: 0;
+     right: 0px;
+     left: 70px;
+    
+
+}
+
+.boton3{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+     width: 100px;
+     top: 0px;
+     bottom: 0;
+     right: 0;
+     left: 270px;
+    
+
+}
+
+
+.row {
+
+    position: relative;
+    margin: auto;
+    top: 150px
+}
+
+
+
+img{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+
