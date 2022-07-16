@@ -14,36 +14,60 @@
   </div>
 
   <div class="boton3">
-
-    <img src="./assets/mail.png" input type="button" id="correo" (click)="abrirLink('gaston.y.fernandez@gmail.com')"><!--COMPLETAR ESTE BOTON-->
     
+    <img src="./assets/mail.png" input type="button" id="correo" (click)="abrirLink('gaston.y.fernandez@gmail.com')"><!--COMPLETAR ESTE BOTON-->
   </div>
+</div>
+
+  <br/>
+
+  <div class="form">
    
   
-    <div class="row">
-
-      <div class="contacto">
-        <h3>Contacto</h3>
+    <form>
+      <div class="form-row">
+        <div class="ss">
+          <label for="validationDefault01">First name</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="First name"  required>
+        </div>
+        <div class="ss">
+          <label for="validationDefault02">Last name</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"  required>
+        </div>
+        <div class="ss">
+          <label for="validationDefaultUsername">Mail</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              
+            </div>
+            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Mail" aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
       </div>
-
-      <div class="name">
-        <h3>Gastón Fernández</h3>
+      <div class="form-row">
+        <div class="ss">
+          <label for="validationDefault03">City</label>
+          <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+        </div>
+        <div class="ss">
+          <label for="validationDefault04">State</label>
+          <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+        </div>
+        <div class="ss">
+          <label for="validationDefault05">Country</label>
+          <input type="text" class="form-control" id="validationDefault05" placeholder="Country" required>
+        </div>
       </div>
-
-      <div class="hubacion">
-        <h3>Buenos Aires. Argentina</h3>
+      <br>
+      <div class="bsend">
+      <button class="btn btn-primary" type="submit">Send</button>
       </div>
-
-      <div class="dirCorreo">
-        <h3>gaston.y.fernandez@gmail.com</h3>
-      </div>
-
-      <div class="numContacto">
-        <h3>1150063223</h3>
-      </div>
-      
-    </div>
+    </form>
   </div>
+
+
+
+
 
 
 
